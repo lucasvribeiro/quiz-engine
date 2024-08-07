@@ -1,0 +1,21 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 0.5em 0;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkboxInput {
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+.checkboxLabel {
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  color: var(--gray-color);
+}
