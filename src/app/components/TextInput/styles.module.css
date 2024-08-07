@@ -1,0 +1,17 @@
+.textInput {
+  margin: 0.5em 0;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: var(--action-color);
+  outline: none;
+}
