@@ -1,0 +1,84 @@
+{
+  "quizTitle": "COVID-19 Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "type": "SINGLE_CHOICE",
+      "question": "Do you have any symptoms?",
+      "image": "https://placehold.co/600x400.png",
+      "title": "Symptoms Check",
+      "description": "Please select your text.",
+      "options": [
+        {
+          "text": "Yes",
+          "nextQuestionId": 2
+        },
+        {
+          "text": "No",
+          "nextQuestionId": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "TEXT",
+      "inputType": "text",
+      "question": "Please describe your symptoms.",
+      "nextQuestionId": 4,
+      "image": "https://placehold.co/600x400.png",
+      "title": "Describe Symptoms",
+      "description": "Provide as much detail as possible."
+    },
+    {
+      "id": 3,
+      "type": "SINGLE_CHOICE",
+      "question": "Have you been in contact with anyone diagnosed with COVID-19?",
+      "image": "https://placehold.co/600x400.png",
+      "title": "Contact Check",
+      "description": "Please select your text.",
+      "options": [
+        {
+          "text": "Yes",
+          "nextQuestionId": 4
+        },
+        {
+          "text": "No",
+          "nextQuestionId": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "MULTIPLE_CHOICE",
+      "nextQuestionId": 5,
+      "image": "https://placehold.co/600x400.png",
+      "title": "Symptom Selection",
+      "description": "Select all that apply.",
+      "question": "Which of the following symptoms do you have?",
+      "options": [
+        {
+          "text": "Fever"
+        },
+        {
+          "text": "Cough"
+        },
+        {
+          "text": "Shortness of breath"
+        },
+        {
+          "text": "None"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "TEXT",
+      "inputType": "text",
+      "question": "Any additional comments?",
+      "nextQuestionId": -1,
+      "image": "https://placehold.co/600x400.png",
+      "title": "Additional Comments",
+      "description": "Provide any additional information."
+    }
+  ]
+}

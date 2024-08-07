@@ -1,0 +1,99 @@
+{
+  "quizTitle": "Lifestyle Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "type": "SINGLE_CHOICE",
+      "title": "Introduction",
+      "question": "Welcome to the lifestyle quiz. Are you ready to begin?",
+      "image": "https://placehold.co/600x400.png",
+      "options": [
+        {
+          "text": "Yes",
+          "nextQuestionId": 2
+        },
+        {
+          "text": "No",
+          "nextQuestionId": -1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "SINGLE_CHOICE",
+      "title": "Exercises Frequency",
+      "question": "How often do you exercise?",
+      "image": "https://placehold.co/600x400.png",
+      "options": [
+        {
+          "text": "Daily",
+          "nextQuestionId": 3
+        },
+        {
+          "text": "Weekly",
+          "nextQuestionId": 4
+        },
+        {
+          "text": "Rarely",
+          "nextQuestionId": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "TEXT",
+      "title": "Type of Exercise",
+      "question": "What type of exercise do you do?",
+      "image": "https://placehold.co/600x400.png",
+      "inputType": "text",
+      "nextQuestionId": 6
+    },
+    {
+      "id": 4,
+      "type": "MULTIPLE_CHOICE",
+      "title": "Preferred Exercises",
+      "question": "Select your preferred exercise types",
+      "description": "Select all that apply.",
+      "image": "https://placehold.co/600x400.png",
+      "options": [
+        {
+          "text": "Running"
+        },
+        {
+          "text": "Swimming"
+        },
+        {
+          "text": "Cycling"
+        }
+      ],
+      "nextQuestionId": 6
+    },
+    {
+      "id": 5,
+      "type": "SINGLE_CHOICE",
+      "title": "Start Excercising",
+      "question": "Would you like to start exercising?",
+      "image": "https://placehold.co/600x400.png",
+      "options": [
+        {
+          "text": "Yes",
+          "nextQuestionId": 6
+        },
+        {
+          "text": "No",
+          "nextQuestionId": 6
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "TEXT",
+      "inputType": "text",
+      "question": "Any additional comments?",
+      "nextQuestionId": -1,
+      "image": "https://placehold.co/600x400.png",
+      "title": "Additional Comments",
+      "description": "Provide any additional information."
+    }
+  ]
+}
